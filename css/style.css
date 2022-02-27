@@ -3,24 +3,6 @@
 @tailwind utilities;
 
 body{
-    background-image: url('./img');
-}
-
-#card1{
-    border: 2px solid gray;
-}
-
-#card2{
-    border: 2px solid gray;
-}
-
-.cards-container{
-    justify-content: center;
-    padding: 4px;
-    margin: 4px;
-}
-
-body{
     margin:0;
     padding:0;
     font-family: arial;
