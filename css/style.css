@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-image: url('./img');
+}
+
+#card1{
+    border: 2px solid gray;
+}
+
+#card2{
+    border: 2px solid gray;
+}
+
+.cards-container{
+    justify-content: center;
+    padding: 4px;
+    margin: 4px;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-family: arial;
+ 
+}
+.menu{
+    width:100%;
+    background:#333;
+    overflow:auto;
+}
+.menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    line-height: 70px;
+}
+.menu ul li{
+    float:left;
+}
+.menu ul li a{
+    text-decoration:none;
+    width:100px;
+    display: block;
+    text-align:center;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:#fff;
+}
+.menu ul li a:hover{
+    background:#6666ff;
+}
+.menu ul li a.active{
+    background:orange;
+}
+.toggle-nav{
+    color:#fff;
+    text-decoration:none;
+    display: none;
+}
+.social{
+    float: right;
+    margin-right: 100px;
+    line-height: 70px;
+}
+.social a{
+    max-width: 50px;
+    text-align:center;
+}
+.social a i{
+    font-size: 20px;
+    background:#fff;
+    width:40px;
+    height: 40px;
+    line-height: 40px;
+    color:#000;
+    border-radius: 50%;
+    margin:5px;
+}
+.social a i:hover{
+    background:#6666ff;
+    color:#fff;
+}
+@media(max-width:800px){
+    .toggle-nav{
+        font-size:40px;
+        text-align:center;
+        font-weight: bold;
+        padding:10px 0px 10px 0px;
+        background:#6666ff;
+        width:100%;
+        display: block;
+    }
+    .menu ul li a{
+        width:100%;
+    }
+    .menu ul li{
+        float:none;
+        width:100%;
+        display: none;;
+    }
+    .social{
+        width:100%;
+        text-align:center;
+        border-top:1px solid #fff;
+        float:none;
+    }
+}
+@media(min-width:850px){
+    .menu ul li{
+        display: block !important;
+    }
+}
