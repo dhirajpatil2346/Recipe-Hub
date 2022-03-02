@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    margin-top: 46px;
+    /* background-image: url('../img/header_backg.jpg'); */
+    background-image: url('https://random.imagecdn.app/500/150');
+}
