@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+#chef_hat{
+    height: 14px;
+    width: 14px;
+    display: inherit;
+}
+
 .carousel{
     margin-top: -24px;
 }
