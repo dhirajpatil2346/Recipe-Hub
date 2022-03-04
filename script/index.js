@@ -1,5 +1,5 @@
-$(document).ready(function(){
-    $(".toggle-nav").click(function(){
-        $(".menu ul li").slideToggle("slow");
-    });
-});
+// $(document).ready(function(){
+//     $(".toggle-nav").click(function(){
+//         $(".menu ul li").slideToggle("slow");
+//     });
+// });
