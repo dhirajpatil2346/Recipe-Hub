@@ -32,7 +32,7 @@ function addSection(key) {
 
   console.log(token.split("/").length);
   if (token.split("/").length === 4) {
-    window.open("/blogPage", "_self");
+    window.open("/Recipe-Hub/blogPage", "_self");
     localStorage.setItem("token", token + key + "/");
   } else {
     localStorage.setItem("token", token + key + "/");
