@@ -1,11 +1,12 @@
+
 let token = localStorage.getItem("token");
+token = localStorage.getItem("token");
+if (token === null) localStorage.setItem("token", "/");
+
 if (token.split("/").length > 4) {
   window.open("/", "_self");
   localStorage.setItem("token", "/");
 }
-
-token = localStorage.getItem("token");
-if (token === null) localStorage.setItem("token", "/");
 
 async function fetchData(id) {
   var token = localStorage.getItem("token");
