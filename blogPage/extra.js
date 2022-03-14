@@ -46,5 +46,5 @@ function deleteSection() {
   token = token.join("/");
   localStorage.setItem("token", token + "/");
   console.log(token);
-  window.open("/", "_self");
+  window.open("/Recipe-Hub", "_self");
 }
