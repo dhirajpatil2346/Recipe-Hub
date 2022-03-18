@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+    /* margin-right: 0px;
+    margin-left: 0px; 
+    margin-top: 46px;
+    background-image: url('../img/vegetables.jpg'); 
+    height: 100%;
+    background-image: url('../img/vegetables.jpg');
+    background-position: center;
+    background-size: cover;  */
+}
+
+.img-title{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.left-title{
+    font-size: 70px;
+    position: absolute;
+    top: 240px;
+    left: 380px;
+}
+.logo1{
+    position: absolute;
+    top: 100px;
+    left: 45px;
+}
+
+.search-button{
+    position: absolute;
+    top: 470px;
+    left: 480px;
+}
+
+.logo1 img{
+    width: 50%;
+    height: 50%;
+}
+
+nav ul img{
+    margin-top: 9px;
+    margin-right: 4px;
+    width: 50px;
+    height: 50px;
+}
+.tagline{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 370px;
+    left: 260px;
+}
