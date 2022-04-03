@@ -1,12 +1,11 @@
-
 let token = localStorage.getItem("token");
-token = localStorage.getItem("token");
-if (token === null) localStorage.setItem("token", "/");
-
 if (token.split("/").length > 4) {
   window.open("/", "_self");
   localStorage.setItem("token", "/");
 }
+
+token = localStorage.getItem("token");
+if (token === null) localStorage.setItem("token", "/");
 
 async function fetchData(id) {
   var token = localStorage.getItem("token");
@@ -32,7 +31,7 @@ function addSection(key) {
 
   console.log(token.split("/").length);
   if (token.split("/").length === 4) {
-    window.open("/Recipe-Hub/blogPage", "_self");
+    window.open("/blogPage", "_self");
     localStorage.setItem("token", token + key + "/");
   } else {
     localStorage.setItem("token", token + key + "/");

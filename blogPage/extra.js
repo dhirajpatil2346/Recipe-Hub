@@ -34,6 +34,11 @@ async function setData() {
     $("h1").eq(i).after(`<p id="${value}">${value}</p>`);
     i++;
   });
+
+  let finall = values[values.length - 1].split("/");
+  $("p").last().after(`<iframe width="420" height="315"
+          src="https://www.youtube.com/embed/${finall[3]}">
+          </iframe>`);
 }
 
 setData();
@@ -46,5 +51,5 @@ function deleteSection() {
   token = token.join("/");
   localStorage.setItem("token", token + "/");
   console.log(token);
-  window.open("/Recipe-Hub", "_self");
+  window.open("/", "_self");
 }
